@@ -140,17 +140,17 @@ header {
   top: 0;
   right: 0;
   z-index: -1;
-  width: 50%;
-  transform: translateX(-85%);
+  width: 40%;
+  transform: translateX(-114%);
   margin-top: 15%;
 }
 
 .banner__heading {
   max-width: 300px;
-  margin: 0 auto;
+  margin-top: -110px;
   text-align: center;
   color: var(--gray);
-  margin-left: 75%;
+  margin-left: 70%;
 }
 
 .banner__heading h1 {
@@ -196,7 +196,7 @@ header {
 #things h2 {
   font-size: 2.25rem;
   padding-top: 4em;
-  margin-bottom: 0.8em;
+  margin-bottom: 2.5em;
   text-align: center;
   color: var(--gray);
 
@@ -235,13 +235,11 @@ header {
   .things__item img {
     width: 40%;
     padding-bottom: 0;
-    margin-left: -140px;
   }
 
   .things__item--heading {
     width: 45%;
     text-align: initial;
-    margin-left: -10px;
   }
 
   .things__item--heading p {
@@ -256,7 +254,6 @@ header {
     order: 2;
     width: 40%;
     padding-bottom: 0;
-    margin-right: -140px;
 
 
   }
@@ -265,7 +262,7 @@ header {
     order: 1;
     width: 45%;
     text-align: initial;
-    margin-right: -10px;
+    margin-right: -50px;
 
   }
 }
@@ -295,7 +292,7 @@ header {
 
 .works__btn {
   text-align: center;
-  margin-top: 8em;
+  margin-top: 3em;
 }
 
 .works__btn button {
@@ -338,7 +335,6 @@ header {
   top: 0;
   right: 0;
   transform: translateX(25%);
-  z-index: -1;
   width: 50%;
 }
 
@@ -364,19 +360,16 @@ header {
   .footer__img {
     top: -25%;
     right: 0;
-    margin-right: 8%;
-    transform: translateY(80%);
-    width: 50%;
+    margin-right: 15%;
+    transform: translateY(120%);
+    width: 40%;
   }
   .footer__heading {
     text-align: initial;
-    margin-left: -140px;
+    margin-left: 0px;
   }
   .footer__contact {
     display: flex;
     justify-content: space-between;
-  }
-  .footer__heading h1{
-
   }
 }
