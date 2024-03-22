@@ -1,117 +1,81 @@
-*,
-*:before,
-*:after {
+body {
   margin: 0;
   padding: 0;
+  background-color: rgb(160, 241, 160);
   box-sizing: border-box;
-}
-img {
-  /* hình ảnh responsive và không bị bể  */
-  max-width: 100%;
-  width: 100%;
-}
-
-.container {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 20px;
 }
 
 header {
-  position: absolute;
-  width: 100%;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 0;
-}
-
-.navbar__img {
-  width: 57px;
-  height: 57px;
-  object-fit: cover;
-}
-
-.navbar__links {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 60%;
-  height: 100%;
-  z-index: 5; /*menu này nằm trên tất cả element khác*/
-}
-
-.navbar__link {
-  list-style: none;
-  margin: 55px;
-}
-.navbar__link a {
-  text-decoration: none; /*xóa đường viền dưới mỗi chữ*/
-  color: #145d09;
-  font-weight: 300;
-  text-transform: uppercase;
-}
-
-.navbar__btn {
-  font-size: 1rem;
-  margin-left: 45px;
-  font-weight: 300px;
-  text-transform: uppercase;
-  border-style: none;
-}
-
-@media (min-width: 62em) {
-  /* chọn độ phân giải cho màn hình và style element theo chế độ đó*/
-  .navbar__links {
-    position: initial;
-    opacity: 1;
-    background-color: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-#banner {
-  position: relative;
-  height: 100vh; /* view height lệ thuộc vào chiều cao của màn hình thiết bị*/
-  display: flex;
-  align-items: center;
-}
-
-.banner__img {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: -1;
-  width: 50%;
-  transform: translateX(-85%);
-  margin-top: 15%;
-}
-
-.banner__heading {
-  max-width: 300px;
-  margin: 0 auto;
+  background-color: rgb(6, 151, 42);
+  color: #fff;
+  padding: 10px;
   text-align: center;
-  margin-left: 75%;
+  
+}
+img {
+  /*hình ảnh responsive và không bị bể*/
+  max-width: 150px;
+  border-radius: 35%;
+  height: 180;
 }
 
-.banner__heading h1 {
-  font-size: 2.25rem;
-  padding-top: 4em;
-  margin-bottom: 0.8em;
+main {
+  padding: 20px;
 }
 
-.banner__heading p {
-  font-weight: 300;
-  line-height: 2em; /* khoảng cách dòng*/
-  margin-bottom: 1.5em;
+.about-me {
+  display: justify;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
-.banner__btn {
-  font-size: 1rem;
+.about-me h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
 }
+
+.about-me p {
+  margin-bottom: 10px;
+}
+
+.skills h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills ul li {
+  margin-bottom: 5px;
+}
+
+form{
+  border-style: solid;
+  border-color: rgb(210, 132, 23);
+  padding: 10px;
+  width: 400px;
+  border-radius: 10%;
+  margin-top: 10px;
+}
+
+form input, textarea, button{
+  text-align: center;
+  text-align: center;
+  color: rgb(33, 33, 28);
+  background-color: var(--gray);
+  padding: 0.8rem 2.5rem; /*1rem = 16px*/
+  border: solid 3px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: var(--smooth);
+  margin: 5px;
+}
+form textarea{
+  margin-top: 10px;
+}
+
+/*abc

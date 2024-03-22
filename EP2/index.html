@@ -1,48 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- main css  -->
-    <link rel="stylesheet" href="style.css" />
-    <title>Lesson 2</title>
+    <title>EP2</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <div class="container">
-            <!-- menu  -->
-            <nav class="navbar">
-                <!-- img  -->
-                <div class="navbar__img">
-                    <img src="img/man.webp" alt="a man" />
-                </div>
-                <!-- links  -->
-                <ul class="navbar__links">
-                    <li class="navbar__link"><a href="#">Home</a></li>
-                    <li class="navbar__link"><a href="#">About</a></li>
-                    <li class="navbar__link"><a href="#">Resume</a></li>
-                    <a href="#footer"><button class="navbar__btn">Contact</button></a>
-                </ul>
-            </nav>
-        </div>
+        <h1>Portfolio</h1>
     </header>
-    <!-- banner -->
-    <section id="banner">
-        <div class="container">
-            <!-- img -->
-            <div class="banner__img">
-                <img src="img/coffee.webp" alt="illustration of coffee">
-            </div>
-            <!-- heading -->
-            <div class="banner__heading">
-                <h1>Hello, I'm Thuan</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium cupiditate fugiat voluptatem
-                    laudantium
-                    officiis. Cum ipsa dignissimos accusamus dolorum error?</p>
-                <a href="#"><button class="banner__btn">View more</button></a>   
-            </div>
-        </div>
-    </section>
+    <main>
+        <center>
+            <section class="about-me">
+                <center>
+                    <img src="https://thuthuatnhanh.com/wp-content/uploads/2021/11/Hinh-anh-chan-dung-nam.jpg">
+                    <h2>Nguyễn Minh Nam</h2>
+                </center>
+            </section>
+            <section class="skills">
+                <h2>Hello, I'm Nam</h2>
+                <p> Chào mọi người! Tôi là Nam, một cậu bé yêu thích nghệ thuật. Tôi thích vẽ tranh, viết thơ và chơi
+                    <br />
+                    nhạc. Cuộc sống là một bức tranh, và tôi đang cố gắng tô màu cho nó!
+                </p>
+                <h2>Kỹ năng</h2>
+                <ul>
+                    <li>Kỹ năng lập trình</li>
+                    <li>Kỹ năng tiếng Anh</li>
+                    <li>Kỹ năng diễn xuất </li>
+                </ul>
+            </section>
+            <section class="skills">
+                <h2>Dự án</h2>
+                <ul>
+                    <li>Dự án:<a target="_blank" href="https://gemini.google.com/app"> Lập trình công cụ AI giúp soạn
+                            thảo văn bản</a></li>
+                    <li>Dự án:<a target="_blank" href="https://www.blackbox.ai/"> Lập trình công cụ AI giúp viết code
+                            nhanh hơn</a></li>
+                </ul>
+            </section>
+            <section class="contact">
+                <h2> Contact </h2>
+                <p>
+                <div>
+                    <a target="_blank" href="https://gemini.google.com/app"><i class="fa-brands fa-facebook"></i></a>
+                    <a target="_blank" href="https://gemini.google.com/app"><i class="fa-brands fa-instagram"></i></a>
+                    <a target="_blank" href="https://gemini.google.com/app"><i
+                            class="fa-brands fa-github"></i></i></i></a>
+                </div>
+                </p>
+                <form action="#">
+                    <input type="text" placeholder="Your name">
+                    <input type="email" placeholder="Your email">
+                    <textarea placeholder="Your message"></textarea>
+                    <br />
+                    <button type="submit" style="color:rgb(40, 72, 215)">Send</button>
+                </form>
+            </section>
+        </center>
+    </main>
+    <script src="https://kit.fontawesome.com/3e4c272392.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
